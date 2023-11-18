@@ -1,5 +1,5 @@
 body {
-  background-color: #f9f7fe;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
   font-family: "Roboto", sans-serif;
 }
 a {
@@ -19,7 +19,11 @@ header {
   padding: 0 0 30px 0;
 }
 .search-form-input {
-  background-color: #f9f7fe;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(242, 235, 243) 0%,
+    rgb(234, 241, 249) 90.1%
+  );
   border: none;
   border-radius: 6px;
   width: 80%;
